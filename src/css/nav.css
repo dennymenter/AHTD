@@ -1,0 +1,7 @@
+:root {
+	--siteBlue: rgb(33, 67, 104);
+}
+
+.backColor {
+	background-color: var(--siteBlue) !important;
+}

@@ -1,0 +1,86 @@
+
+.who-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 10px;
+	flex-wrap: wrap;
+}
+
+.who-col {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.who-col-2 {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	padding-right: 10px;
+	padding-top: 50px;
+}
+
+.who-col-3 {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.about-a-hope {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 2em;
+}
+
+
+.we-believe {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.by-donating {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.participating {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.FAQ-header {
+	padding: 0;
+    margin-bottom: 0;
+    background-color:#D3D3D3;
+    border-bottom: 0px solid;
+}
+
+
+.FAQ-content {
+	color:red;
+}
+
+.form-col {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.form-row-who {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#accordion1 accordian-addon {
+	background-color: white !important;
+}
+
+.card-addon {
+	background-color: red !important;
+}

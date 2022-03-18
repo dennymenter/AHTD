@@ -1,0 +1,228 @@
+﻿.col-back-image-rocket {
+    background-image: url("../images/HTD_RocketShip.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+	margin-right: 0%;
+	order: 1;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.parent-block {
+    align-content: center;
+    margin: 50px;
+}
+
+
+
+.making-a-difference {
+    font-family: 'Superscratchy';
+    font-style: normal;
+	font-size: 3em;
+	color: var(--siteBlue);
+	margin-left:50px;
+	margin-top: 100px;
+}
+
+.the-hope {
+    color: darkgrey;
+    font-size: 30px;
+}
+
+.dream-text {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+	line-height: 60%;
+	margin-left:5%;
+}
+
+.hope-text {
+    color: black;
+    font-size: 1em;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+
+.row-dream {
+    display: flex;
+    flex-direction: row;
+    
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-dream {
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 10px;
+}
+
+
+
+
+.sleep-row {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    
+}
+
+.sleep-column {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.sleep-column-filler {
+    display: flex;
+    flex-direction: column;
+	width: 1px;
+	background-color: black;
+}
+
+/*FOOTER*/
+.footer-why-sleep-matters {
+    line-height: 70%;
+    font-size: 1em;
+/*	font-family:"Nimbus Bold";*/
+}
+
+.footer-captions {
+    letter-spacing: .1em;
+}
+
+.footer-captions-small {
+    letter-spacing: .08em;
+    font-size: xx-small;
+    line-height: 250%;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--siteBlue);
+    justify-content: center;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+.difference-flex-row {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.difference-flex-column {
+	display:flex;
+	flex-direction: column;
+	width: 80%;
+	height: 400px;
+	background-image: url("../images/HTD_Website_Home-1_DK.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-bottom: 0px;
+	
+}
+
+.one-night {
+	color: var(--siteBlue);
+	padding-left: 50px;
+	font-size: 1.5em;
+}
+
+.because-of {
+	font-size: .8em;
+	margin-left: 50px;
+	margin-right: 70%;
+}
+
+.hope-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0px;
+}
+
+.hope-column {
+	display: flex;
+	flex-direction: column;
+	order:0;
+	align-items: center;
+}
+
+.hope-to-dream-paragraph {
+	margin-right: 20%;
+	font-size: .8em;
+	margin-left: 5%;
+}
+
+
+
+.sleep-matters-container {
+	display:flex;
+	flex-direction: row;
+	background-image: url("../images/HTD_DottedLine-1.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+	background-color: lightgrey;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.sleep-matters-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.footer-why-sleep-matters-small {
+	font-size: .8em;
+	text-align: center;
+}
+
+
+
+.hide-me-until-small {
+	display: none;
+	margin-bottom: 10px;
+}
+
+.who-image {
+	margin-left:50px;
+}
+
+#hope-two-guys {
+	margin-top: 1% !important;
+			
+
+
+}
+#we-love {
+		text-align: center;
+}

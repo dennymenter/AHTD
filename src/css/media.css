@@ -1,0 +1,393 @@
+/* Set the background color of body to tan */
+
+/*
+examples from 
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+*/
+
+
+@media screen and (max-width: 1129px) {
+
+	
+	.difference-flex-row {
+		height: 300px !important;
+	}
+	
+	
+	.difference-flex-column {
+	width: 80% !important;
+	height: 300px !important;
+	background-position:right !important;
+	}
+
+
+	.making-a-difference {
+		font-size: 2.5em !important;
+		margin-left:50px;
+		margin-top: 50px !important;
+		margin-bottom: 10px !important;
+		line-height: 1 !important;
+	}	
+	
+	.one-night {
+		color: var(--siteBlue);
+		padding-left: 50px;
+		font-size: 1.5em !important;
+	}
+	
+	.because-of {
+		font-size: 1em !important;
+		margin-left: 50px;
+		margin-right: 50% !important;
+	}
+
+	
+
+	
+}
+
+@media screen and (max-width: 992px) {
+
+	
+	.hope-text {
+		margin-top: 20% !important;	
+	}
+	
+	.difference-flex-column {
+		height: 300px !important;
+	
+	}
+
+	.donate-rocket {
+		display: none !important;
+	}
+	
+	.hide-on-small-size {
+		display: none !important;
+	}
+	
+	.thousands {
+		text-align: center;
+		font-size: .4em;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.donate-difference {
+		text-align: center;
+	}
+	
+	.nav-bottom-container {
+		justify-content: flex-start;
+	}
+	
+	.sleep-matters-container {
+	background-image: url("") !important;
+	}
+	
+	
+	#small-nav-text {
+		margin-top: 15px;
+	}
+
+	.hide-me-until-small {
+		display:block !important;
+	}
+	
+	
+	#hidden-pic {
+		margin-bottom: 20px;
+	}
+	
+
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	.hope-text {
+		margin-top: 10%;
+	}
+	
+	#who-star {
+		order: 1;
+	}
+	
+	#who-about {
+		order: 3;
+		padding-top: 0px;
+		text-align: center;
+	}
+	.participating {
+		text-align: center;
+	}
+		
+	#who-believe {
+		order: 4;
+	}
+	
+	#who-girl-pic {
+		order: 2;
+		width: 100%;
+align-items: center;
+	}
+	
+	.who-col {
+		margin: 10px;	
+	}
+	.who-col-2 {
+		margin: 10px;
+	}
+	
+	.who-col-3 {
+		margin: 10px;
+	}
+	
+	
+	.navbar-brand {
+		Width: 50%;
+	}
+
+	.who-image {
+		margin-left: 10px !important;
+	}
+	
+	#hope-box {
+		margin-top:5% !important;
+	}
+	
+	.difference-flex-column {
+	width: 80%;
+	height: 300px;
+/*	background-image: url("../images/HTD_Website_Home-1_MB.jpg") !important;*/
+	background-position:right !important;
+	}
+
+	
+	.making-a-difference {
+		font-size: 2em !important;
+		margin-left:10px !important;
+		margin-top: 40px !important;
+		margin-bottom: 10px !important;
+		line-height: 1 !important;
+	}	
+	
+	.one-night {
+		color: var(--siteBlue);
+		padding-left: 10px !important;
+		font-size: 1em !important;
+	}
+	
+	.because-of {
+		font-size: .8em !important;
+		margin-left: 10px !important;
+		margin-right: 300px !important;
+	}
+	
+	.difference-flex-row {
+		height:150px !important;
+	}
+	
+
+	.hope-row {
+		margin-left: 10px;
+	}
+	
+	/*    DONATE PAGE	*/
+	
+	.nav-bottom-panel {
+		width: 100%;
+	}
+
+	
+}
+
+@media screen and (max-width: 600px) {
+
+	.hope-text {
+		margin-top: 90% !important;	
+	}
+	
+	.who-image {
+		padding-left: 0px !important;
+		padding-top: 10% !important;
+		text-align: center !important;
+	}
+	
+	#main-logo {
+		width: 50% !important;
+		height: 50% !important;
+	}
+	
+	#hope-box {
+		margin-top:5% !important;
+	}
+	
+	.foundedImage {
+		width: 25% !important;
+		height: 25% !important;
+	}
+	
+	.difference-flex-column {
+		width: 100%;
+		height: 250px !important;
+		background-image: url("../images/HTD_Website_Home-1_MB.jpg") !important;
+		background-position:right !important;
+	}
+	
+	.making-a-difference {
+		font-size: 1.5em !important;
+		margin-left:50px;
+		margin-top: 40px !important;
+		margin-bottom: 10px !important;
+		line-height: .7 !important;
+	}	
+	
+	.one-night {
+		color: var(--siteBlue);
+		padding-left: 50px;
+		font-size: 1em !important;
+	}
+	
+	.because-of {
+		font-size: .8em !important;
+		margin-right: 170px !important;
+	}
+	
+	.col-back-image-rocket {
+    	background-image: url("") !important;
+    }
+	
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>> SECTION  */	
+/*	bottom nav*/
+	
+	.bottom-nav-header {
+		margin-left: 10px !important;
+	}
+	
+	.bottom-nav-item {
+		margin-left: 10px !important;
+	}
+	
+	
+	.nav-break-col-1{
+		width:100%;
+	}
+	.nav-break-col-2{
+		width:100%;
+	}
+	.nav-break-col-3{
+		width:100%;
+	}
+	.nav-break-col-4{
+		width:100%;
+	}
+	.nav-break-col-5{
+		width:100%;
+	}
+	.nav-break-col-6{
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width: 380px) {
+
+	
+	.hope-text {
+		margin-top: 50% !important;	
+	}
+	
+	.who-image {
+		
+		padding-left: 0px !important;
+		padding-top: 5% !important;
+		text-align: center !important;
+	}
+	
+	#hope-box {
+		margin-top: 5% !important;
+	}
+	
+	.one-night {
+		color: var(--siteBlue);
+		padding-left: 10px !important;
+		font-size: 1em !important;
+	}
+	
+	.because-of {
+		font-size: .8em !important;
+		margin-left: 50px;
+		margin-right: 150px !important;
+	}
+	
+	#main-logo {
+		width: 50% !important;
+		height: 50% !important;
+	}
+	
+	.foundedImage {
+		width: 25% !important;
+		height: 25% !important;
+	}
+	
+	.nav-bottom-container {
+		display:block;
+	}
+	
+	.thousands {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.donate-difference {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	
+	.nav-break-col-1{
+		width:100%;
+	}
+	.nav-break-col-2{
+		width:100%;
+	}
+	.nav-break-col-3{
+		width:100%;
+	}
+	.nav-break-col-4{
+		width:100%;
+	}
+	.nav-break-col-5{
+		width:100%;
+	}
+	.nav-break-col-6{
+		width:100%;
+	}
+	
+}
+
+
+
+
+.media-image {
+
+}
+
+.media-300 {
+	
+}
+
+.media-600 {
+	
+}
+
+.media-900 {
+	
+}
+
+#small-nav-text {
+	
+}
+

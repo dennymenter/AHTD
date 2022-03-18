@@ -1,0 +1,154 @@
+/* CSS Document */
+
+.nav-bottom-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-bottom-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: White;
+	background-color: var(--siteBlue);
+	font-size: .8em;
+	line-height: .5em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	align-content: center;
+	justify-content: center;
+}
+
+.nav-break-col-1 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-2 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-3 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-4 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-5 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-6 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-7 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.font-test-regular {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.masterbackround {
+/*	background-color: green;*/
+}
+
+.FAQ-header {
+/*
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+*/
+	padding: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 0px solid;
+}
+
+.FAQ-content {
+	
+}
+
+.font-1 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'Akronim', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+
+.font-2 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'Julee', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+.font-3 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'Shadows Into Light Two', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+.font-4 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'Patrick Hand SC', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+.font-5 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'The Girl Next Door', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+.font-6 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'Vibur', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+.font-7 {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+		font-family: 'ZCOOL XiaoWei', cursive;
+		font-size: 3em;
+		color:white;
+	  	padding: 20px;
+  		text-align: center;
+}
+
+
+
+
+
+
+
+
+.test-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.test-col {
+	display: flex;
+	flex-direction: column;
+	border-color: green;
+	border-style: inset;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Superscratchy";
+    src: url("Superscratchy-Italic.woff2") format("woff2"),
+        url("Superscratchy-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Superscratchy";
+    src: url("Superscratchy.woff2") format("woff2"),
+        url("Superscratchy.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
