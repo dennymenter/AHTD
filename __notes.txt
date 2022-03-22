@@ -2,9 +2,11 @@ note from
 https://docs.microsoft.com/en-us/answers/questions/122180/building-your-first-static-web-app-in-the-azure-po.html
 
 
-
-
-
 app_location -Location of your application code. For example, enter / if your application source code is at the root of the repository, or /app if your application code is in a directory called app.
 
 app_artifact_location - Location of the build output directory relative to the app_location. For example, if your application source code is located at /app, and the build script outputs files to the /app/build folder, then set build as the app_artifact_location value.
+
+
+
+
+DIDN'T SEEM TO WORK
