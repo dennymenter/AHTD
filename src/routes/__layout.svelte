@@ -5,6 +5,7 @@
     import "../css/nav.css"
     import NavHeader from "../common/nav-header.svelte";
     import NavFooter from "../common/nav-footer.svelte";
+    import "../app.css";
 </script>
 
 <svelte:head>

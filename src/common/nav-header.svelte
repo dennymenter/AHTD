@@ -9,7 +9,7 @@
 </svelte:head>
 
     <nav class="navbar navbar-expand-lg navbar-dark backColor" style="padding: 0px">
-        <div class="container backColor">
+        <div class="container backColor" style="margin=0px; align-content:left">
             <a class="navbar-brand nopadding" href="/"><img src="../src/images/AHTDLogo.jpg" alt="Logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/">Home</a>
+                        <a class="nav-link active text-nowrap" href="/">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -26,6 +26,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="../tasks">Tasks</a></li>
+                            <li><a class="dropdown-item" href="../coltest">Column Tests</li>
                             <li><a class="dropdown-item" href="https://sveltestrap.js.org/?path=/story/components--get-started" target="_new">Svelte Bootstrap</a></li>
                             <li><a class="dropdown-item" href="/nav-font-banner">Custom Font Header</a></li>
                             <li><a class="dropdown-item" href="https://www.markuptag.com/bootstrap-5-navbar-with-login-button">Basic Navbar Code</a></li>
@@ -33,13 +34,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../about">About Us</a>
+                        <a class="nav-link text-nowrap" href="../about">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../faq">FAQ</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             View More
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -49,11 +50,11 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link text-nowrap" href="#">Contact Us</a>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <div class="dropdown">
+                    <div class="dropdown" >
                         <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                             Our Products
                         </button>

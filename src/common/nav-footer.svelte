@@ -3,7 +3,7 @@
   </script>
 
 
-<div class="container-footer">
+<!-- <div class="container-footer">
     <div class="flex-row">
         <div class="flex-col footer-header">HOME</div>
         <div class="flex-col">
@@ -26,7 +26,7 @@
             <p class="footer-subhead">SOCIAL MEDIA</p>
         </div>
         <div class="flex-col">
-            <p class="footer-header">SUPPPORT LINKS</p>
+            <p class="footer-header">SUPPORT LINKS</p>
             <p class="footer-subhead">TRANSLATE to ....</p>
         </div>
         <div class="flex-col">
@@ -48,9 +48,47 @@
 			internet-based ads
 		</div>
 	</div>
-</div>
+</div> -->
 
-<br>ORIG BOTTOM NAV	
+
+<p style="padding-top: 150px">BOOTSTAP VERSION</p>
+<container class="row container-footer" style="justify-content: center">
+	<div class="col-sm-2 footer-header">
+		HOME
+	</div>
+	<div class="col-sm-2">
+		<p class="footer-header">WHO WE ARE</p>
+		<p class="footer-subhead">ABOUT H2D</p>
+		<p class="footer-subhead">PARTICIPATING RETAIL STORES</p>
+		<p class="footer-subhead">FAQ</p>
+		<p class="footer-subhead">CONTACT US</p>
+		<p class="footer-subhead">WHO WE ARE</p>
+	</div>
+	<div class="col-sm-2 footer-header">
+		<p class="footer-header">GET INVOLVED</p>
+		<p class="footer-subhead">NOMINATE A CHILD</p>
+		<p class="footer-subhead">DONATE</p>
+	</div>
+	<div class="col-sm-2 footer-header">
+		<p class="footer-header">MEDIA</p>
+		<p class="footer-subhead">GALLERY</p>
+		<p class="footer-subhead">NEWS</p>
+		<p class="footer-subhead">SOCIAL MEDIA</p>
+	</div>
+	<div class="col-sm-2 footer-header">
+		<p class="footer-header">SUPPORT LINKS</p>
+		<p class="footer-subhead">TRANSLATE to ....</p>
+	</div>
+	<div class="col-sm-2 footer-header">
+		<a class="bottom-nav-item " href="https://www.facebook.com/HopeToDreamAHS/" alt="Facebook"><img src="../src/images/facebook.png" width="50" height="60" /></a>
+		<a class="bottom-nav-item " href="https://www.instagram.com/hopetodreamahs/" alt="Instagram"><img src="../src/images/instragram.png" width="51" height="60" alt=""/></a>
+		<a class="bottom-nav-item " href="https://twitter.com/HopeToDreamAHS" alt="Twitter"><img src="../src/images/twitter.png" width="56" height="60" alt=""/></a>
+	</div>	
+</container>
+
+
+
+<!-- <br>ORIG BOTTOM NAV	
 <div class="nav-bottom-container showborder">
 	<div class="nav-bottom-panel whitelink showborder">
 		<p class="bottom-nav-header"><a href="index.html" title="a hope to dream">HOME</a></p>
@@ -109,5 +147,7 @@
 	<div class="nav-copyright-col showborder">
 		internet-based ads
 	</div>
-</div>
+</div> -->
 	
+
+
