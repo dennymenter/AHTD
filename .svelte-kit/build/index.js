@@ -1,8 +1,8 @@
 
 import root from '__GENERATED__/root.svelte';
-import { respond } from '/source/svelte-course/.svelte-kit/runtime/server/index.js';
-import { set_paths, assets, base } from '/source/svelte-course/.svelte-kit/runtime/paths.js';
-import { set_prerendering } from '/source/svelte-course/.svelte-kit/runtime/env.js';
+import { respond } from '/source/AHTD/.svelte-kit/runtime/server/index.js';
+import { set_paths, assets, base } from '/source/AHTD/.svelte-kit/runtime/paths.js';
+import { set_prerendering } from '/source/AHTD/.svelte-kit/runtime/env.js';
 import * as user_hooks from "./hooks.js";
 
 const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta name=\"description\" content=\"\" />\n\t\t<link rel=\"icon\" href=\"" + assets + "/favicon.png\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\t\t" + head + "\n\t</head>\n\n\t<svelte:head>\n    <link rel=\"stylesheet\" href=\"https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css\" />\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.10.2/css/all.css\" />\n    <!-- Bootstrap JS -->\n    <script src=\"https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js\"></script>\n    \n</svelte:head>\n\n\t<body>\n\t\t<div>" + body + "</div>\n\t</body>\n</html>\n";

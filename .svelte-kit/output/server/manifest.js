@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set(["favicon.png"]),
 	_: {
 		mime: {".png":"image/png"},
-		entry: {"file":"start-46ebe05e.js","js":["start-46ebe05e.js","chunks/vendor-9d2670dc.js"],"css":["assets/vendor-28d9e71a.css"]},
+		entry: {"file":"start-a3db6c09.js","js":["start-a3db6c09.js","chunks/vendor-9d2670dc.js"],"css":["assets/vendor-28d9e71a.css"]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
@@ -15,7 +15,8 @@ export const manifest = {
 			() => import('./nodes/7.js'),
 			() => import('./nodes/8.js'),
 			() => import('./nodes/9.js'),
-			() => import('./nodes/10.js')
+			() => import('./nodes/10.js'),
+			() => import('./nodes/11.js')
 		],
 		routes: [
 			{
@@ -50,12 +51,22 @@ export const manifest = {
 			},
 			{
 				type: 'page',
+				key: "coltest",
+				pattern: /^\/coltest\/?$/,
+				params: null,
+				path: "/coltest",
+				shadow: null,
+				a: [0,5],
+				b: [1]
+			},
+			{
+				type: 'page',
 				key: "faqCMS",
 				pattern: /^\/faqCMS\/?$/,
 				params: null,
 				path: "/faqCMS",
 				shadow: null,
-				a: [0,5],
+				a: [0,6],
 				b: [1]
 			},
 			{
@@ -65,7 +76,7 @@ export const manifest = {
 				params: null,
 				path: "/about",
 				shadow: null,
-				a: [0,6],
+				a: [0,7],
 				b: [1]
 			},
 			{
@@ -75,7 +86,7 @@ export const manifest = {
 				params: null,
 				path: "/tasks",
 				shadow: null,
-				a: [0,7],
+				a: [0,8],
 				b: [1]
 			},
 			{
@@ -85,7 +96,7 @@ export const manifest = {
 				params: null,
 				path: "/misc",
 				shadow: null,
-				a: [0,8],
+				a: [0,9],
 				b: [1]
 			},
 			{
@@ -95,7 +106,7 @@ export const manifest = {
 				params: null,
 				path: "/misc/misc",
 				shadow: null,
-				a: [0,9],
+				a: [0,10],
 				b: [1]
 			},
 			{
@@ -105,7 +116,7 @@ export const manifest = {
 				params: null,
 				path: "/faq",
 				shadow: null,
-				a: [0,10],
+				a: [0,11],
 				b: [1]
 			}
 		]
